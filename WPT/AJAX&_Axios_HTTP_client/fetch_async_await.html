@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+     <div class="container">
+        <h2 class="m-3">fetch_then_catch</h2>
+        <button onclick="getData()" class="btn btn-primary">Get Book Data</button>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>#id</td>
+                    <td>title</td>
+                    <td>author</td>
+                    <td>year</td>
+                    <td>genre</td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+         function displayData(products){
+            const body = document.getElementById('tbody')
+            body.innerHTML = ''
+
+            for(let p of products){
+                const row = `<tr>
+                    <td>${p.id}</td>
+                    <td>${p.title}</td>
+                    <td>${p.author}</td>
+                    <td>${p.year}</td>
+                    <td>${p.genre}</td>
+                    </tr>`
+                tbody.innerHTML += row
+            }
+        }
+
+        async function getData(){
+            const response = await fetch('http://127.0.0.1:5500/bookData.json')
+            console.log(response)
+            const data = await response.json()
+            console.log(data)
+            displayData(data)
+        
+        }
+    </script>
+    
+</body>
+</html>

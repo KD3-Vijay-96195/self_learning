@@ -1,0 +1,22 @@
+[
+  { "id": 1, "title": "The Silent Echo", "author": "Elena Vance", "year": 2012, "genre": "Mystery" },
+  { "id": 2, "title": "Beyond the Horizon", "author": "Marcus Thorne", "year": 2015, "genre": "Adventure" },
+  { "id": 3, "title": "Steel & Shadow", "author": "Sarah J. Miller", "year": 2018, "genre": "Fantasy" },
+  { "id": 4, "title": "The Last Algorithm", "author": "David Chen", "year": 2021, "genre": "Sci-Fi" },
+  { "id": 5, "title": "A Whisper of Roses", "author": "Lila Thorne", "year": 2010, "genre": "Romance" },
+  { "id": 6, "title": "Chasing Tomorrow", "author": "Julian Hart", "year": 2019, "genre": "Contemporary" },
+  { "id": 7, "title": "The Clockwork Heart", "author": "Eliza Finch", "year": 2014, "genre": "Steampunk" },
+  { "id": 8, "title": "Midnight in Kyoto", "author": "Kenji Sato", "year": 2017, "genre": "Historical Fiction" },
+  { "id": 9, "title": "The Hidden Gate", "author": "Oliver Brooks", "year": 2013, "genre": "Fantasy" },
+  { "id": 10, "title": "Urban Legends", "author": "Sophia Rossi", "year": 2022, "genre": "Non-Fiction" },
+  { "id": 11, "title": "Forgotten Trails", "author": "Liam O'Connor", "year": 2008, "genre": "Adventure" },
+  { "id": 12, "title": "The Glass Sky", "author": "Isabella Grant", "year": 2016, "genre": "Dystopian" },
+  { "id": 13, "title": "Neon Dreams", "author": "Rick Deckard", "year": 2020, "genre": "Cyberpunk" },
+  { "id": 14, "title": "The Amber Key", "author": "Fiona Wilde", "year": 2011, "genre": "Mystery" },
+  { "id": 15, "title": "Under the Same Sun", "author": "Amara Okafor", "year": 2019, "genre": "Literary Fiction" },
+  { "id": 16, "title": "Quantum Leap", "author": "Dr. Sam Beckett", "year": 2023, "genre": "Science" },
+  { "id": 17, "title": "The Paper Dragon", "author": "Mei Ling", "year": 2015, "genre": "Children's" },
+  { "id": 18, "title": "Salt & Sand", "author": "Xavier Dubois", "year": 2017, "genre": "Travel" },
+  { "id": 19, "title": "The Winter King", "author": "Arthur Pendragon", "year": 2005, "genre": "Historical" },
+  { "id": 20, "title": "Final Breath", "author": "Cynthia Black", "year": 2021, "genre": "Thriller" }
+]

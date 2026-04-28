@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Using XHR</h2>
+        <button class="btn btn-primary m-3" onclick="getData()">Get Book Data</button>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>#id</td>
+                    <td>title</td>
+                    <td>author</td>
+                    <td>year</td>
+                    <td>genre</td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function displayData(products){
+            const body = document.getElementById('tbody')
+            body.innerHTML = ''
+            for(let p of products){
+                const row = `<tr>
+                    <td>${p.id}</td>
+                    <td>${p.title}</td>
+                    <td>${p.author}</td>
+                    <td>${p.year}</td>
+                    <td>${p.genre}</td>
+                    </tr>`
+                body.innerHTML += row
+            }
+        }
+
+        function getData(){
+            const xhr = new XMLHttpRequest()
+
+            xhr.open('GET', 'http://127.0.0.1:5500/bookData.json')
+            xhr.send()
+
+            xhr.onreadystatechange = (response) => {
+
+                if(xhr.readyState == 4 && xhr.status == 200){
+                    console.log(xhr.response)
+                    const books = JSON.parse(xhr.response)
+                    console.log(books)
+                    displayData(books)
+                }
+
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+Difference Between MPA and SPA
+================================
+
+1. MPA (Multi Page Application)
+--------------------------------
+
+Definition:
+A web application where every request loads a new webpage from the server.
+
+Features:
+- Loads a new HTML page every time
+- Full page refresh happens
+- Mostly server-side rendering
+- Slower navigation
+- Better SEO support
+- Easier for beginners
+
+Flow:
+User Click
+   ↓
+Request Sent to Server
+   ↓
+Server Sends New HTML Page
+   ↓
+Browser Reloads
+
+Examples:
+- Banking websites
+- Government portals
+- News websites
+- Blog websites
+
+Technologies:
+- HTML
+- CSS
+- JavaScript
+- PHP
+- JSP
+- Django
+- Laravel
+
+Advantages:
+- Better SEO
+- Easy architecture
+- Better server rendering
+- Easier indexing by search engines
+
+Disadvantages:
+- Full page reload
+- Slower user experience
+- More server requests
+
+When to Use:
+- Blog websites
+- News portals
+- Government websites
+- SEO-focused websites
+
+
+
+2. SPA (Single Page Application)
+--------------------------------
+
+Definition:
+A web application where only one page loads initially and content updates dynamically without full page reload.
+
+Features:
+- Single HTML page load
+- No full page refresh
+- Faster navigation
+- Client-side rendering
+- Smooth UI experience
+- More JavaScript usage
+
+Flow:
+User Click
+   ↓
+JavaScript Updates UI
+   ↓
+Only Required Data Fetches
+
+Examples:
+- Gmail
+- Facebook
+- Netflix
+- Twitter
+- Dashboard applications
+
+Technologies:
+- React
+- Angular
+- Vue
+- AJAX
+- REST API
+- Node.js
+
+Advantages:
+- Faster interaction
+- Smooth user experience
+- Less page reload
+- App-like behavior
+
+Disadvantages:
+- SEO is harder
+- Initial loading heavy
+- More complex development
+- State management needed
+
+When to Use:
+- Admin dashboards
+- Chat applications
+- Social media apps
+- Realtime systems
+
+
+
+Quick Difference Table
+=======================
+
+MPA:
+- Multiple pages
+- Full reload
+- Better SEO
+- Slower navigation
+- Easier architecture
+
+SPA:
+- Single page
+- No full reload
+- Faster navigation
+- Better UX
+- More JavaScript complexity
+
+
+
+One-Line Definitions
+=====================
+
+MPA:
+Every request loads a completely new webpage.
+
+SPA:
+Only one page loads initially and content updates dynamically.

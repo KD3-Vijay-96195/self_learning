@@ -1,0 +1,279 @@
+Virtual DOM and Diffing
+========================
+
+
+1. What is DOM?
+----------------
+
+DOM stands for Document Object Model.
+
+It is the tree-like structure of an HTML webpage created by the browser.
+
+Example HTML:
+
+<html>
+    <body>
+        <h1>Hello</h1>
+    </body>
+</html>
+
+DOM Structure:
+
+Document
+   |
+ html
+   |
+ body
+   |
+ h1
+
+
+Problem with Real DOM
+----------------------
+
+Real DOM updates are slow because:
+
+- Browser re-renders elements
+- Layout recalculation happens
+- Painting and reflow occur
+- Updating many elements becomes expensive
+
+Example:
+If 1 item changes in a list of 1000 items,
+browser may re-render many elements.
+
+
+2. What is Virtual DOM?
+------------------------
+
+Virtual DOM is a lightweight copy of the Real DOM stored in memory.
+
+It is a JavaScript object representation of the UI.
+
+Instead of directly updating the Real DOM,
+frameworks like React first update the Virtual DOM.
+
+
+Definition:
+Virtual DOM is a virtual representation of the real DOM used to improve performance by minimizing direct DOM manipulation.
+
+
+Flow of Virtual DOM
+--------------------
+
+User Action
+   ↓
+State Changes
+   ↓
+Virtual DOM Updated
+   ↓
+Diffing Happens
+   ↓
+Only Changed Parts Identified
+   ↓
+Real DOM Updated Minimally
+
+
+Example
+---------
+
+Initial UI:
+
+<h1>Hello</h1>
+
+Virtual DOM Object:
+
+{
+   type: "h1",
+   children: "Hello"
+}
+
+After Update:
+
+<h1>Hello World</h1>
+
+New Virtual DOM:
+
+{
+   type: "h1",
+   children: "Hello World"
+}
+
+React compares old and new Virtual DOM.
+
+
+3. What is Diffing?
+--------------------
+
+Diffing is the process of comparing:
+
+- Old Virtual DOM
+with
+- New Virtual DOM
+
+to identify what changed.
+
+
+Definition:
+Diffing is an algorithm used to compare old and new Virtual DOM trees and find the minimum updates needed for the Real DOM.
+
+
+Purpose of Diffing
+-------------------
+
+- Improves performance
+- Avoids unnecessary DOM updates
+- Updates only changed elements
+
+
+Example of Diffing
+-------------------
+
+Old Virtual DOM:
+
+<h1>Hello</h1>
+
+New Virtual DOM:
+
+<h1>Hello World</h1>
+
+Diffing detects:
+Only text content changed.
+
+So React updates only text node instead of reloading entire page.
+
+
+4. Reconciliation
+------------------
+
+The complete process of:
+- creating new Virtual DOM
+- comparing using diffing
+- updating Real DOM
+
+is called Reconciliation.
+
+
+5. Why Virtual DOM is Fast?
+----------------------------
+
+Because:
+
+- Real DOM operations are expensive
+- Virtual DOM operations happen in memory
+- Only required updates happen
+
+This reduces:
+- repaint
+- reflow
+- rendering cost
+
+
+6. Key Features of Virtual DOM
+--------------------------------
+
+- Lightweight copy of DOM
+- Stored in memory
+- Faster updates
+- Used in React
+- Uses diffing algorithm
+- Improves UI performance
+
+
+7. Real DOM vs Virtual DOM
+============================
+
+Real DOM:
+- Actual browser DOM
+- Slow updates
+- Entire UI may re-render
+- Heavy operations
+
+Virtual DOM:
+- Virtual copy in memory
+- Faster updates
+- Only changed part updates
+- Lightweight operations
+
+
+8. Example in React
+--------------------
+
+Code:
+
+function App() {
+   return <h1>Hello</h1>;
+}
+
+When state changes:
+
+function App() {
+   return <h1>Hello World</h1>;
+}
+
+React:
+- creates new Virtual DOM
+- compares old and new Virtual DOM
+- updates only changed text
+
+
+9. Advantages of Virtual DOM
+------------------------------
+
+- Better performance
+- Faster rendering
+- Efficient updates
+- Smooth UI experience
+- Reduces unnecessary rendering
+
+
+10. Disadvantages
+------------------
+
+- Extra memory usage
+- Additional abstraction layer
+- Complexity in implementation
+
+
+11. Frameworks Using Virtual DOM
+---------------------------------
+
+- React
+- Vue (partially)
+- Preact
+
+
+12. Important Interview Points
+--------------------------------
+
+Q. Does Virtual DOM replace Real DOM?
+Answer:
+No.
+Virtual DOM is only an optimization layer.
+Final rendering still happens in Real DOM.
+
+
+Q. Why is React fast?
+Answer:
+Because React uses:
+- Virtual DOM
+- Diffing
+- Reconciliation
+
+
+Q. What does diffing compare?
+Answer:
+Old Virtual DOM and New Virtual DOM.
+
+
+13. One-Line Definitions
+==========================
+
+Virtual DOM:
+A lightweight in-memory copy of the Real DOM.
+
+Diffing:
+The process of comparing old and new Virtual DOM trees to identify minimal changes.
+
+Reconciliation:
+The complete process of updating the Real DOM using diffing results.

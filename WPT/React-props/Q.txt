@@ -1,0 +1,325 @@
+Props Drilling in React
+========================
+
+
+1. What is Props?
+-------------------
+
+Props stands for Properties.
+
+Props are used to pass data from:
+- Parent component
+to
+- Child component
+
+Example:
+
+<Child name="Rahul" />
+
+
+2. What is Props Drilling?
+----------------------------
+
+Props drilling means passing props from one component to another through multiple intermediate components even when those intermediate components do not need the data.
+
+Definition:
+Props drilling is the process of passing data through many nested components just to reach a deeply nested child component.
+
+
+3. Why Props Drilling Happens?
+--------------------------------
+
+Because React data flow is:
+Parent → Child
+
+If deeply nested component needs data,
+we pass props layer by layer.
+
+
+4. Props Drilling Flow
+========================
+
+Example Structure:
+
+App
+ ↓
+Child1
+ ↓
+Child2
+ ↓
+Child3
+
+Suppose Child3 needs username.
+
+Then:
+- App passes username to Child1
+- Child1 passes to Child2
+- Child2 passes to Child3
+
+Even though Child1 and Child2 do not use username.
+
+
+5. Example of Props Drilling
+==============================
+
+Code:
+
+function Child3(props) {
+
+   return <h1>{props.name}</h1>
+
+}
+
+function Child2(props) {
+
+   return <Child3 name={props.name} />
+
+}
+
+function Child1(props) {
+
+   return <Child2 name={props.name} />
+
+}
+
+function App() {
+
+   return <Child1 name="Rahul" />
+
+}
+
+
+Flow:
+
+App
+ ↓ name
+Child1
+ ↓ name
+Child2
+ ↓ name
+Child3
+
+
+Output:
+
+Rahul
+
+
+6. Problems with Props Drilling
+=================================
+
+A. Repetitive Prop Passing
+----------------------------
+
+Same props passed repeatedly.
+
+
+B. Hard to Maintain
+---------------------
+
+Large applications become difficult to manage.
+
+
+C. Unnecessary Components Involved
+------------------------------------
+
+Intermediate components may not need the data.
+
+
+D. Tight Coupling
+-------------------
+
+Components become dependent on prop chains.
+
+
+E. Code Becomes Messy
+-----------------------
+
+Too many props reduce readability.
+
+
+7. Solution to Props Drilling
+===============================
+
+Main solutions:
+
+1. Context API
+2. Redux
+3. Zustand
+4. Recoil
+
+Most common basic solution:
+Context API
+
+
+8. What is Context API?
+-------------------------
+
+Context API allows sharing data globally across components without manually passing props at every level.
+
+
+Definition:
+Context API is a React feature used to share data directly between components without props drilling.
+
+
+9. Context API Flow
+=====================
+
+Provider
+   ↓
+Any Nested Component Can Access Data Directly
+
+
+10. Important Functions in Context API
+========================================
+
+A. createContext()
+--------------------
+
+Creates context.
+
+
+B. Provider
+--------------
+
+Provides data globally.
+
+
+C. useContext()
+-----------------
+
+Accesses context data.
+
+
+11. Example Using Context API
+===============================
+
+Code:
+
+import React, { createContext, useContext } from "react";
+
+const UserContext = createContext();
+
+function Child3() {
+
+   const user = useContext(UserContext);
+
+   return <h1>{user}</h1>
+
+}
+
+function Child2() {
+
+   return <Child3 />
+
+}
+
+function Child1() {
+
+   return <Child2 />
+
+}
+
+function App() {
+
+   return (
+
+      <UserContext.Provider value="Rahul">
+
+         <Child1 />
+
+      </UserContext.Provider>
+
+   )
+
+}
+
+
+Output:
+
+Rahul
+
+
+12. Difference Between Props Drilling and Context API
+======================================================
+
+Props Drilling:
+- Data passed manually
+- Intermediate components involved
+- Harder for large apps
+
+Context API:
+- Direct data access
+- No manual prop passing
+- Better for shared data
+
+
+13. When to Use Context API?
+==============================
+
+Use Context API when:
+- many components need same data
+- authentication data shared
+- theme shared
+- language settings shared
+- user information shared
+
+
+14. Real Life Example
+=======================
+
+Props Drilling:
+Like passing a message through many people.
+
+Context API:
+Like making announcement through speaker system directly.
+
+
+15. Advantages of Context API
+================================
+
+- Avoids props drilling
+- Cleaner code
+- Better readability
+- Easier maintenance
+
+
+16. Disadvantages of Context API
+==================================
+
+- Excessive usage may cause re-renders
+- Not ideal for very large state management alone
+
+
+17. Interview Questions
+=========================
+
+Q. What is props drilling?
+Answer:
+Passing props through multiple nested components unnecessarily.
+
+
+Q. What is the solution to props drilling?
+Answer:
+Context API or state management libraries.
+
+
+Q. Which hook is used to access context?
+Answer:
+useContext()
+
+
+18. One-Line Definitions
+==========================
+
+Props:
+Data passed from parent to child component.
+
+Props Drilling:
+Passing props through multiple nested components unnecessarily.
+
+Context API:
+A React feature used to share data globally without prop drilling.
+
+useContext():
+A hook used to access context data directly.

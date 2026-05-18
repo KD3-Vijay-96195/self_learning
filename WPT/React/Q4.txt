@@ -1,0 +1,400 @@
+JSX Syntax and HTML Tag Changes in React
+=========================================
+
+
+1. What is JSX?
+----------------
+
+JSX stands for JavaScript XML.
+
+It is a syntax extension used in React that allows writing HTML-like code inside JavaScript.
+
+Example:
+
+const element = <h1>Hello React</h1>
+
+
+JSX is not actual HTML.
+
+It gets converted into JavaScript by Babel.
+
+
+2. Why JSX is Used?
+--------------------
+
+- Easier UI creation
+- HTML-like syntax
+- Better readability
+- Combines UI and logic together
+
+
+3. Basic JSX Example
+----------------------
+
+function App() {
+
+   return (
+      <h1>Hello World</h1>
+   )
+
+}
+
+export default App
+
+
+4. Important JSX Rules
+========================
+
+
+A. Must Return Single Parent Element
+--------------------------------------
+
+Wrong:
+
+return (
+   <h1>Hello</h1>
+   <p>World</p>
+)
+
+Correct:
+
+return (
+   <div>
+      <h1>Hello</h1>
+      <p>World</p>
+   </div>
+)
+
+
+OR using Fragment:
+
+return (
+   <>
+      <h1>Hello</h1>
+      <p>World</p>
+   </>
+)
+
+
+Reason:
+JSX converts into a single JavaScript object.
+
+
+B. All Tags Must Be Closed
+----------------------------
+
+HTML allows:
+
+<input>
+
+JSX requires:
+
+<input />
+
+
+Examples:
+
+<img />
+<br />
+<hr />
+
+
+C. Use camelCase for Attributes
+---------------------------------
+
+HTML attributes are written differently in JSX.
+
+
+5. HTML to JSX Syntax Changes
+================================
+
+A. class → className
+----------------------
+
+HTML:
+
+<div class="box"></div>
+
+JSX:
+
+<div className="box"></div>
+
+
+Reason:
+"class" is reserved keyword in JavaScript.
+
+
+B. for → htmlFor
+------------------
+
+HTML:
+
+<label for="name"></label>
+
+JSX:
+
+<label htmlFor="name"></label>
+
+
+Reason:
+"for" is reserved keyword in JavaScript.
+
+
+C. onclick → onClick
+----------------------
+
+HTML:
+
+<button onclick="show()">
+
+JSX:
+
+<button onClick={show}>
+
+
+React uses camelCase event names.
+
+
+D. onchange → onChange
+------------------------
+
+HTML:
+
+<input onchange="test()">
+
+JSX:
+
+<input onChange={test} />
+
+
+E. tabindex → tabIndex
+------------------------
+
+HTML:
+
+<div tabindex="1"></div>
+
+JSX:
+
+<div tabIndex="1"></div>
+
+
+F. maxlength → maxLength
+---------------------------
+
+HTML:
+
+<input maxlength="10">
+
+JSX:
+
+<input maxLength="10" />
+
+
+G. readonly → readOnly
+-------------------------
+
+HTML:
+
+<input readonly>
+
+JSX:
+
+<input readOnly />
+
+
+H. colspan → colSpan
+----------------------
+
+HTML:
+
+<td colspan="2">
+
+JSX:
+
+<td colSpan="2">
+
+
+I. contenteditable → contentEditable
+--------------------------------------
+
+HTML:
+
+<div contenteditable="true">
+
+JSX:
+
+<div contentEditable="true">
+
+
+6. JavaScript Inside JSX
+==========================
+
+Use curly braces {}.
+
+Example:
+
+const name = "Rahul";
+
+<h1>Hello {name}</h1>
+
+
+Output:
+
+Hello Rahul
+
+
+7. Expressions in JSX
+=======================
+
+Allowed:
+
+- Variables
+- Functions
+- Calculations
+- Conditions
+
+Example:
+
+<h1>{10 + 20}</h1>
+
+Output:
+
+30
+
+
+8. Inline CSS in JSX
+======================
+
+HTML:
+
+<p style="color:red">
+
+JSX:
+
+<p style={{color:"red"}}>
+
+
+Important:
+- style takes JavaScript object
+- property names use camelCase
+
+
+Example:
+
+<p style={{
+   backgroundColor: "yellow",
+   fontSize: "20px"
+}}>
+
+
+9. Comments in JSX
+====================
+
+HTML Comment:
+
+<!-- comment -->
+
+JSX Comment:
+
+{/* comment */}
+
+
+10. Conditional Rendering
+===========================
+
+Example:
+
+const isLogin = true;
+
+{
+   isLogin ? <h1>Welcome</h1> : <h1>Please Login</h1>
+}
+
+
+11. JSX Compiles Into
+=======================
+
+JSX:
+
+<h1>Hello</h1>
+
+Converted into:
+
+React.createElement("h1", null, "Hello")
+
+
+12. Advantages of JSX
+=======================
+
+- Easy syntax
+- Better readability
+- Combines HTML + JS
+- Faster UI development
+- Prevents injection attacks
+
+
+13. Common JSX Errors
+=======================
+
+A. Multiple parent elements
+
+Wrong:
+
+return (
+   <h1>Hello</h1>
+   <p>Text</p>
+)
+
+B. Unclosed tags
+
+Wrong:
+
+<img>
+
+Correct:
+
+<img />
+
+C. Using class instead of className
+
+Wrong:
+
+<div class="box">
+
+Correct:
+
+<div className="box">
+
+
+14. HTML vs JSX Quick Table
+=============================
+
+HTML                  JSX
+------------------------------------------------
+class                 className
+for                   htmlFor
+onclick               onClick
+onchange              onChange
+tabindex              tabIndex
+maxlength             maxLength
+readonly              readOnly
+colspan               colSpan
+
+
+15. One-Line Definitions
+==========================
+
+JSX:
+A syntax extension in React that allows writing HTML-like code inside JavaScript.
+
+className:
+JSX replacement for HTML class attribute.
+
+htmlFor:
+JSX replacement for HTML for attribute.
+
+camelCase:
+Writing words with capital letters after first word.
+Example:
+onClick, maxLength

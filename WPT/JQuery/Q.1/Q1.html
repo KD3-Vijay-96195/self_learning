@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Traversal Methods</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        .grandparent {
+            border: 3px solid black;
+            padding: 20px;
+        }
+
+        .parent {
+            border: 3px solid blue;
+            padding: 20px;
+            margin-top: 10px;
+        }
+
+        .child {
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grandparent">
+
+        Grandparent
+
+        <div class="parent">
+
+            Parent
+
+            <h2 class="child">Heading</h2>
+
+            <p id="para" class="child">
+                Paragraph
+            </p>
+
+            <span class="child">
+                Span Text
+            </span>
+
+            <div>
+                <b>Nested Bold Text</b>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        // parent()
+        $("#para").parent().css({
+            "background-color": "lightyellow"
+        });
+
+        // children()
+        $(".parent").children().css({
+            "color": "blue"
+        });
+
+        // find()
+        $(".grandparent").find("b").css({
+            "font-size": "30px",
+            "color": "red"
+        });
+
+        // siblings()
+        $("#para").siblings().css({
+            "background-color": "lightgreen"
+        });
+
+    </script>
+
+</body>
+</html>

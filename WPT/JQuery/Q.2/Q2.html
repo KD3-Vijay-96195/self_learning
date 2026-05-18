@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form Using jQuery</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        h2{
+            color: darkblue;
+        }
+
+        input{
+            padding: 8px;
+            margin: 10px;
+            width: 200px;
+        }
+
+        button{
+            padding: 8px 15px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        table{
+            width: 60%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+        }
+
+        th{
+            background-color: lightgray;
+        }
+
+        th, td{
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Information Form</h2>
+
+    <!-- Input Fields -->
+
+    <input type="text" id="studentName" placeholder="Enter Student Name">
+
+    <input type="text" id="studentCourse" placeholder="Enter Course Name">
+
+    <button id="addBtn">
+        Add Student
+    </button>
+
+    <!-- Table -->
+
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Student Name</th>
+                <th>Course</th>
+            </tr>
+
+        </thead>
+
+        <tbody id="tableBody">
+
+        </tbody>
+
+    </table>
+
+    <script>
+
+        $("#addBtn").click(function(){
+
+            // Get input values
+            let name = $("#studentName").val();
+
+            let course = $("#studentCourse").val();
+
+            // Validation
+            if(name == "" || course == ""){
+                alert("Please fill all fields");
+                return;
+            }
+
+            // Create new row
+            let row = `
+                <tr>
+                    <td>${name}</td>
+                    <td>${course}</td>
+                </tr>
+            `;
+
+            // Add row to table
+            $("#tableBody").append(row);
+
+            // Clear input fields
+            $("#studentName").val("");
+            $("#studentCourse").val("");
+
+        });
+
+    </script>
+
+</body>
+</html>

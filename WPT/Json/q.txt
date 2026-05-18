@@ -1,0 +1,357 @@
+JSON Syntax and JSON Object/Array of Books
+===========================================
+
+
+1. What is JSON?
+------------------
+
+JSON stands for JavaScript Object Notation.
+
+It is a lightweight data interchange format used to store and transfer data.
+
+JSON is:
+- human readable
+- easy to write
+- easy to parse
+- language independent
+
+
+2. Uses of JSON
+-----------------
+
+- API communication
+- Data storage
+- Configuration files
+- Client-server communication
+
+
+3. JSON Syntax Rules
+======================
+
+A. Data is written in key-value pairs
+
+Example:
+
+"name": "Rahul"
+
+
+B. Keys must be inside double quotes
+
+Correct:
+
+"name"
+
+Wrong:
+
+'name'
+name
+
+
+C. String values must use double quotes
+
+Correct:
+
+"Java"
+
+Wrong:
+
+'Java'
+
+
+D. Objects are enclosed in curly braces {}
+
+Example:
+
+{
+   "name": "Rahul"
+}
+
+
+E. Arrays are enclosed in square brackets []
+
+Example:
+
+[
+   "Java",
+   "Python"
+]
+
+
+F. Data items are separated by commas
+
+Example:
+
+{
+   "name": "Rahul",
+   "age": 22
+}
+
+
+4. JSON Supported Data Types
+==============================
+
+- String
+- Number
+- Boolean
+- Array
+- Object
+- null
+
+
+Examples:
+
+{
+   "name": "Rahul",
+   "age": 22,
+   "isStudent": true,
+   "marks": [90, 80],
+   "address": {
+      "city": "Pune"
+   },
+   "phone": null
+}
+
+
+5. JSON Object
+================
+
+Definition:
+A JSON object is a collection of key-value pairs enclosed inside {}.
+
+
+Example of JSON Object for Book
+=================================
+
+{
+   "bookId": 1,
+   "bookName": "Java Programming",
+   "author": "James Gosling",
+   "price": 500,
+   "available": true
+}
+
+
+Explanation:
+- bookId → number
+- bookName → string
+- author → string
+- price → number
+- available → boolean
+
+
+6. JSON Array
+===============
+
+Definition:
+A JSON array is an ordered collection of values enclosed inside [].
+
+
+Example of JSON Array of Books
+================================
+
+[
+   {
+      "bookId": 1,
+      "bookName": "Java Programming",
+      "author": "James Gosling",
+      "price": 500
+   },
+
+   {
+      "bookId": 2,
+      "bookName": "React JS",
+      "author": "Jordan Walke",
+      "price": 700
+   },
+
+   {
+      "bookId": 3,
+      "bookName": "Node JS",
+      "author": "Ryan Dahl",
+      "price": 650
+   }
+]
+
+
+Explanation:
+- Array contains multiple JSON objects
+- Each object represents one book
+
+
+7. Nested JSON Example
+========================
+
+{
+   "libraryName": "City Library",
+
+   "books": [
+
+      {
+         "bookName": "Java",
+         "price": 500
+      },
+
+      {
+         "bookName": "Python",
+         "price": 400
+      }
+
+   ]
+}
+
+
+Explanation:
+- libraryName is string
+- books is array
+- array contains objects
+
+
+8. JSON vs JavaScript Object
+==============================
+
+JSON:
+- Keys require double quotes
+- Used for data transfer
+- Pure data format
+
+JavaScript Object:
+- Quotes optional
+- Used in JavaScript logic
+
+
+JSON:
+
+{
+   "name": "Rahul"
+}
+
+
+JavaScript Object:
+
+{
+   name: "Rahul"
+}
+
+
+9. Important JSON Methods
+===========================
+
+A. JSON.stringify()
+----------------------
+
+Converts JavaScript object into JSON string.
+
+Example:
+
+const obj = {
+   name: "Rahul"
+};
+
+JSON.stringify(obj);
+
+
+B. JSON.parse()
+-----------------
+
+Converts JSON string into JavaScript object.
+
+Example:
+
+const data = '{"name":"Rahul"}';
+
+JSON.parse(data);
+
+
+10. Advantages of JSON
+========================
+
+- Lightweight
+- Easy to understand
+- Faster data transfer
+- Language independent
+- Widely used in APIs
+
+
+11. Common JSON Errors
+========================
+
+A. Missing Double Quotes
+
+Wrong:
+
+{
+   name: "Rahul"
+}
+
+Correct:
+
+{
+   "name": "Rahul"
+}
+
+
+B. Trailing Comma
+
+Wrong:
+
+{
+   "name": "Rahul",
+}
+
+Correct:
+
+{
+   "name": "Rahul"
+}
+
+
+C. Single Quotes
+
+Wrong:
+
+{
+   'name': 'Rahul'
+}
+
+Correct:
+
+{
+   "name": "Rahul"
+}
+
+
+12. Real-Life Use of JSON
+===========================
+
+Frontend sends request:
+
+{
+   "username": "admin",
+   "password": "1234"
+}
+
+Backend sends response:
+
+{
+   "status": "success",
+   "message": "Login Successful"
+}
+
+
+13. One-Line Definitions
+==========================
+
+JSON:
+A lightweight format used for storing and transferring data.
+
+JSON Object:
+A collection of key-value pairs enclosed in {}.
+
+JSON Array:
+An ordered collection of values enclosed in [].
+
+JSON.stringify():
+Converts JavaScript object into JSON string.
+
+JSON.parse():
+Converts JSON string into JavaScript object.

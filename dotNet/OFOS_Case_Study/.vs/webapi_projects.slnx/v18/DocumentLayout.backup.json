@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\utils\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\utils\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\webapi_online_food_os.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\webapi_online_food_os.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/onlinefoodordering_db/True/SqlTable/dbo.Food.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\dto\\apiresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\dto\\apiresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\model\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\model\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\dto\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\dto\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\dto\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\dto\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\dto\\placeorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\dto\\placeorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\dto\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\dto\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\dto\\updatemobiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\dto\\updatemobiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\dto\\foodcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\dto\\foodcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|c:\\users\\hp\\desktop\\visual studio projects\\webapi_projects\\webapi_online_food_os\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC3C9C-3B62-B8AC-06AF-7740758FA7E0}|webapi_online_food_os\\webapi_online_food_os.csproj|solutionrelative:webapi_online_food_os\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Program.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Program.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:21:33.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Controllers\\FoodController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Controllers\\FoodController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:37:29.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Controllers\\UserController.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwEsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:37:14.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthHelper.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Utils\\AuthHelper.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Utils\\AuthHelper.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Utils\\AuthHelper.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Utils\\AuthHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T16:55:11.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:37:50.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\appsettings.json",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\appsettings.json",
+              "RelativeToolTip": "webapi_online_food_os\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-02T11:03:43.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\WeatherForecast.cs",
+              "RelativeToolTip": "webapi_online_food_os\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T06:10:52.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "webapi_online_food_os.http",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\webapi_online_food_os.http",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\webapi_online_food_os.http",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\webapi_online_food_os.http",
+              "RelativeToolTip": "webapi_online_food_os\\webapi_online_food_os.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-06T06:11:17.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\ApiResultDto.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Dto\\ApiResultDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\ApiResultDto.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Dto\\ApiResultDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:30:56.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Model\\Food.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Model\\Food.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Model\\Food.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Model\\Food.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:56:12.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Model\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Model\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Model\\AppDbContext.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Model\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:44:55.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.Food.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/onlinefoodordering_db/True/SqlTable/dbo.Food.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/onlinefoodordering_db/True/SqlTable/dbo.Food.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-03T09:23:00.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:33:52.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Properties\\launchSettings.json",
+              "RelativeToolTip": "webapi_online_food_os\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-03T07:07:12.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignupDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\SignupDto.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Dto\\SignupDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\SignupDto.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Dto\\SignupDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:59:32.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SigninDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\SigninDto.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Dto\\SigninDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\SigninDto.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Dto\\SigninDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:59:50.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlaceOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\PlaceOrderDto.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Dto\\PlaceOrderDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\PlaceOrderDto.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Dto\\PlaceOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:00:44.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\OrderDetailsDto.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Dto\\OrderDetailsDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\OrderDetailsDto.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Dto\\OrderDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:13:15.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateMobileDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\UpdateMobileDto.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Dto\\UpdateMobileDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\UpdateMobileDto.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Dto\\UpdateMobileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:00:18.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FoodCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\FoodCreateDto.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Dto\\FoodCreateDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\FoodCreateDto.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Dto\\FoodCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:00:31.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "webapi_online_food_os\\Dto\\CartItemDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Visual Studio Projects\\webapi_projects\\webapi_online_food_os\\Dto\\CartItemDto.cs",
+              "RelativeToolTip": "webapi_online_food_os\\Dto\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:00:55.733Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+com\product\dao\ProductDaoImpl.class
+com\product\utils\HibernateUtils.class
+com\product\entities\Product.class
+com\product\entities\Category.class
+com\product\dao\ProductDao.class
+com\product\tester\TestHibernate.class
+com\product\tester\AddNewProduct.class
